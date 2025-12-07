@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ads2U | Sample Work</title>
+    <meta name="description" content="Sample projects demonstrating our design and creative capabilities.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Ads2U" style="height: 100px; width: auto;">
+            </a>
+            <div class="mobile-menu-btn">☰</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="btn btn-primary"
+                    style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section text-center" style="padding-top: 160px;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Sample Work & Capabilities</h1>
+            <p style="color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto;">
+                Demonstration projects showcasing our design and creative capabilities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter (Visual Only) -->
+    <div class="container text-center" style="margin-bottom: 3rem;">
+        <div style="display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            <button class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">All</button>
+            <button class="btn btn-secondary"
+                style="padding: 0.5rem 1.5rem; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2);">UGC
+                Ads</button>
+            <button class="btn btn-secondary"
+                style="padding: 0.5rem 1.5rem; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2);">Websites</button>
+            <button class="btn btn-secondary"
+                style="padding: 0.5rem 1.5rem; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.2);">Sample
+                Projects</button>
+        </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <section class="section">
+        <div class="container">
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; align-items: start;">
+
+                <!-- Item 1: UGC -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="background: #222; position: relative;">
+                        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/oCpWXPmsdSE?si=BsAi7HxIqkcR4dxK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: var(--color-accent-teal); color: #000; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            UGC</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Sample Project: Beauty Brand UGC</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Practice UGC creative demonstrating
+                            our TikTok-style video production.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2: Website -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="height: 400px; background: #1a1a1a; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <img src="images/website-leadflow.png" alt="Website Mockup" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: var(--color-white); color: #000; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            WEBSITE</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Demonstration Website Design</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Sample modern website showcasing
+                            lead-gen capabilities.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3: Ad Creative -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="background: #222; position: relative;">
+                        <img src="images/fitness-app-ad.jpg" alt="Fitness App Ad" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: var(--color-accent-blue); color: #fff; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            META ADS</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Concept Campaign: Fitness App</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Sample Meta ad creative
+                            demonstrating high-contrast design approach.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4: UGC -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="background: #222; position: relative;">
+                        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/pnD1dDUD-Mc?si=a_tJmM6SGHoaSm7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: var(--color-accent-teal); color: #000; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            UGC</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Practice UGC Creative: Product Review</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Sample testimonial-style video
+                            showcasing our UGC production quality.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5: Website -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="height: 400px; background: #1a1a1a; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <img src="images/website-healthcare.jpg" alt="Healthcare Website" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: var(--color-white); color: #000; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            WEBSITE</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Demonstration Website: Healthcare</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Sample website design showcasing
+                            clean, professional healthcare layout.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6: Case Study -->
+                <div
+                    style="background: var(--color-navy-light); border-radius: var(--border-radius-md); overflow: hidden;">
+                    <div
+                        style="height: 400px; background: #0f1429; display: flex; align-items: center; justify-content: center; position: relative;">
+                        <img src="images/education-marketing.jpg" alt="Education Marketing" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div
+                            style="position: absolute; top: 1rem; right: 1rem; background: #333; color: #fff; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600;">
+                            SAMPLE PROJECT</div>
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin-bottom: 0.5rem;">Sample Project: Education Marketing</h4>
+                        <p style="color: rgba(255,255,255,0.6); font-size: 0.9rem;">Concept campaign demonstrating our
+                            lead generation strategies.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section text-center">
+        <div class="container">
+            <h2 style="margin-bottom: 1.5rem;">Ready to Create Your Campaign?</h2>
+            <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem; display: block;">
+                        <img src="images/logo.png" alt="Ads2U" style="height: 100px; width: auto;">
+                    </a>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">
+                        Helping brands scale through performance marketing and creative strategy.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Meta Ads</a></li>
+                        <li><a href="services.html">UGC Creatives</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/ads2_u?utm_source=qr?utm_source=qr">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/share/19vgSHPSUM/">Facebook</a></li>
+                        <li><a href="https://wa.me/919258673680">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"
+                style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05); text-align: center; color: var(--color-text-muted); font-size: 0.9rem;">
+                <p>&copy; 2025 Ads2U. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileBtn.addEventListener('click', () => {
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+                navLinks.style.flexDirection = 'column';
+                navLinks.style.position = 'absolute';
+                navLinks.style.top = '100%';
+                navLinks.style.left = '0';
+                navLinks.style.width = '100%';
+                navLinks.style.background = '#0a0e17';
+                navLinks.style.padding = '2rem';
+                navLinks.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+                navLinks.style.zIndex = '1000';
+            }
+        });
+    </script>
+</body>
+
+</html>

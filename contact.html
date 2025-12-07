@@ -1,0 +1,198 @@
+href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Poppins:wght@600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Ads2U" style="height: 100px; width: auto;">
+            </a>
+            <div class="mobile-menu-btn">☰</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active btn btn-primary"
+                    style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section text-center" style="padding-top: 160px;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Let's Grow Your Business</h1>
+            <p style="color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto;">
+                Ready to scale? Fill out the form below or contact us directly. We usually respond within 2 hours.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 4rem;">
+
+                <!-- Contact Form -->
+                <div
+                    style="background: var(--color-navy-light); padding: 2.5rem; border-radius: var(--border-radius-lg); border: 1px solid rgba(255,255,255,0.05);">
+                    <form action="https://formspree.io/f/xblnykne" method="POST">
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Full
+                                Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe"
+                                style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email
+                                Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com"
+                                style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="phone"
+                                    style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 98765..."
+                                    style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                            </div>
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="city"
+                                    style="display: block; margin-bottom: 0.5rem; font-weight: 500;">City</label>
+                                <input type="text" id="city" name="city" placeholder="New Delhi"
+                                    style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                            </div>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="category"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Business
+                                Category</label>
+                            <select id="category" name="category"
+                                style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                                <option value="" disabled selected>Select your industry</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="real-estate">Real Estate</option>
+                                <option value="education">Education / Coaching</option>
+                                <option value="health">Health / Clinic</option>
+                                <option value="salon">Salon / Spa</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="service"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Service
+                                Required</label>
+                            <select id="service" name="service"
+                                style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body);">
+                                <option value="meta-ads">Meta Ads Management</option>
+                                <option value="ugc">UGC Creative Production</option>
+                                <option value="website">Website Development</option>
+                                <option value="full-stack">Full Stack Growth (Ads + Web)</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 2rem;">
+                            <label for="message"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals..."
+                                style="width: 100%; padding: 1rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--border-radius-sm); color: #fff; font-family: var(--font-body); resize: vertical;"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 style="margin-bottom: 2rem;">Contact Information</h2>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-accent-blue); margin-bottom: 0.5rem;">Email Us</h4>
+                        <a href="mailto:contact.ads2u@gmail.com"
+                            style="font-size: 1.1rem; color: rgba(255,255,255,0.8);">contact.ads2u@gmail.com</a>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-accent-teal); margin-bottom: 0.5rem;">WhatsApp / Call</h4>
+                        <a href="https://wa.me/919258673680"
+                            style="font-size: 1.1rem; color: rgba(255,255,255,0.8);">+91 9258673680</a>
+                    </div>
+
+                    <div style="margin-bottom: 2rem;">
+                        <h4 style="color: var(--color-white); margin-bottom: 0.5rem;">Follow Us</h4>
+                        <div style="display: flex; gap: 1rem;">
+                            <a href="https://www.instagram.com/ads2_u?utm_source=qr" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.9rem;">Instagram</a>
+                            <a href="https://www.facebook.com/share/19vgSHPSUM/" class="btn btn-secondary"
+                                style="padding: 0.5rem 1rem; font-size: 0.9rem;">Facebook</a>
+                        </div>
+                    </div>
+
+                    <div
+                        style="background: rgba(255,255,255,0.05); padding: 2rem; border-radius: var(--border-radius-md);">
+                        <h4 style="margin-bottom: 1rem;">Office Hours</h4>
+                        <p style="color: rgba(255,255,255,0.7); margin-bottom: 0.5rem;">Monday - Saturday</p>
+                        <p style="color: rgba(255,255,255,0.9); font-weight: 600;">10:00 AM - 7:00 PM IST</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem; display: block;">
+                        <img src="images/logo.png" alt="Ads2U" style="height: 100px; width: auto;">
+                    </a>
+                    <p style="color: var(--color-text-muted); font-size: 0.9rem; line-height: 1.6;">
+                        Helping brands scale through performance marketing and creative strategy.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Meta Ads</a></li>
+                        <li><a href="services.html">UGC Creatives</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/ads2_u?utm_source=qr?utm_source=qr">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/share/19vgSHPSUM/">Facebook</a></li>
+                        <li><a href="https://wa.me/919258673680">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom"
+                style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.05); text-align: center; color: var(--color-text-muted); font-size: 0.9rem;">
+                <p>&copy; 2025 Ads2U. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
